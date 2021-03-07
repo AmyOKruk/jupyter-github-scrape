@@ -21,7 +21,6 @@ jobs:
         notebook: "ca-vac-scrape.ipynb"
         params: "params.json"
         isReport: False
-        poll: True
     - uses: actions/upload-artifact@master
       if: always()
       with:
